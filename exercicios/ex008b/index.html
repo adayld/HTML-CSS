@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte/ Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p> <!--tag 'code' envelopa para mostrar os caracteres em fonte monoespaçada (mesmo tamanho entre os caracteres)-->
+    <pre> <!--tag 'pre' envelopa para o conteúdo para ficar identado-->
+        <code>
+    num = int(imput('Digite um número')) <!--'SHIFT' + 'TAB' para diminuir o recuo-->
+    if num % 2 == 0:
+        printf(f'O número {num} é PAR')
+    else:
+        printf(f'O número {num} é ÍMPAR')
+    print('Fim do Programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p> <!--tag 'q' envelopa como citação (quote)-->
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML e CSS3:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1"> <!--a tag 'blockquote' envelopa o conteúdo (como uma citação direta) deslocando as linhas do parágrafo.
+    
+    A tag 'cite' vai manter (internamente) um vínculo com os sites de busca/site do autor do link/livro.
+    -->
+        Como qualquer idioma, a HTML também tem suas regras de sintaxe e escrita, e um arquivo de texto escrito em conformidade com essas regras consiste-se na chamada marcação HTML ou estrutura HTML.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Eu estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p> <!--tag 'abbr' envelopa com o significado da abreviação do nome para os sites de buscas/usuário...)-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p> <!--tag 'bdo' envelo o texto para aparecer invertido-->
+</body>
+</html>
